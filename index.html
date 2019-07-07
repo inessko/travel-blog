@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack</title>
+<link href="/assets/css/app.css" rel="stylesheet"></head>
+<body>
+
+<!-- main wrapper -->
+<div class="wrapper">
+    <div id="app">
+        <header>
+            <div class="wrap-header flex">
+                <div class="social-link">
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href=""><i class="fa fa-telegram" aria-hidden="true"></i>
+                </div>
+                <div class="logo">
+                    <a href="/"><img src="/assets/img/Logo-AgencyFB.png" alt="Логотип"></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <!--                        <img src="/assets/img/Menu.png" alt="menu" class="menu-toggle">-->
+                        <div class="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu-right">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                            <div class="menu-right_nav">
+                                <ul>
+                                    <li><a href="">Главная</a></li>
+                                    <li><a href="">О нас</a></li>
+                                    <li><a href="">Портфолио</a></li>
+                                    <li><a href="">Услуги</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+        <!-- wrapper for content -->
+        <div class="content-wrapper">
+            <!--  expamle section -->
+            <section id="main">
+                <div class="container">
+                    <div class="picture flex">
+                        <div class="picture_item">
+                            <a href=""><img src="/assets/img/Layer_4.jpg" alt="ball"></a>
+                            <div class="picture_item_desc flex">
+                                <div class="picture_item_desc_title flex">
+                                    <div class="picture_item_desc_title-left">
+                                        <span>Awesome Day</span>
+                                        <span>View from above</span>
+                                    </div>
+                                    <div class="picture_item_desc_title-right">
+                                        <span>JAN</span>
+                                        <span>25th</span>
+                                    </div>
+                                </div>
+                                <div class="picture_item_desc_comment flex">
+                                    <div class="picture_item_desc_comment-like flex">
+                                        <span><i class="fa fa-heart" aria-hidden="true"></i>370000</span>
+                                        <span>
+<i class="fa fa-comments" aria-hidden="true"></i>3720</span>
+                                    </div>
+                                    <div class="picture_item_desc_comment-window">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="24.99" height="24.99"
+                                             viewBox="0 0 300 300">
+                                            <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                                                <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                                                           x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+                                                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                                        <rdf:Description rdf:about=""/>
+                                                    </rdf:RDF>
+                                                </x:xmpmeta>
+
+
+                                                <?xpacket end="w"?></metadata>
+                                            <image id="Слой_1" data-name="Слой 1" width="300" height="300"
+                                                   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAQAAABu4E3oAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfjBR0TNjCHMn9OAAABUUlEQVQ4y9WSMUtCYRSGH3UIhGwRgiIILK7eGhyTGiManfwxLf2FFlFaNCRqyNAcKmiIlv5AqUThpG1RVwpuoF+DtzifHN0733Tec57Le885ITr0adKmzRPPeGgxQwIHF5d1YtDFiHehAEV80dELcyuKr+QV5Iw3kd2FeRTpPdcKcsOVyFqQtYxVFOTA6siBw8CSymNAwaoOSUMEg0dZyDXiQfscVaFX+cAQBaiwCeRFMREgi0I7BbaojQ/TYOjjCi2Fp9r9iwbfJMc0hy8umRLLirbE/4x5RYtPAxp8KhN7pz4JKAd7SVrAaC9Fu/WYDFBStr8gtDywMUKjGDzrls7FjdWtg+1jiECaoXWrBdXu7xvgQM6SDpV/rFgdWdgXaWnCYKTtvTApUdplRwG2yYhsDXriCz5HCnJiGeuG6ODxQJMWbV7wVWMxVlglRRKX2R8FS9FuhCBZPAAAAABJRU5ErkJggg=="/>
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_5.jpg" alt="ball"></a></div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_6.jpg" alt="ball"></a></div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_7.jpg" alt="ball"></a></div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_8.jpg" alt="ball"></a></div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_9.jpg" alt="ball"></a></div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_10.jpg" alt="ball"></a></div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_11.jpg" alt="ball"></a></div>
+                        <div class="picture_item"><a href=""><img src="/assets/img/Layer_11.jpg" alt="ball"></a></div>
+                    </div>
+                    <div class="about-us">
+                        <div class="about-us_text"><h3 class="title3">A Picture Is Worth A Thousand Words</h3>
+                            <p>People peter griffin high school mom bra just avenger le me students friendzoned
+                                challenge accepted. True Story face troll finals derpina cereal guy lose back final week
+                                yao male. Not bad luke feel like a sir bacon pizza coffee a the avengers puking rainbows
+                                nyan cat search.</p>
+                            <button class="btn">Learn More About Us</button>
+                        </div>
+                    </div>
+                    <!-- blog -->
+                    <div class="blog flex">
+                        <!-- blog-article -->
+                        <div class="blog-article">
+                            <div class="article">
+                                <div class="article_wrap_left">
+                                    <div class="article_wrap_left_crumbs flex">
+                                        <p><span><a
+                                                href="/">A Picture Is Worth A Thousand Words	   </a> </span><span>01/17/2014 </span>
+                                        </p>
+
+                                        <span class="read">8 minutes read</span>
+                                    </div>
+                                    <h3 class="title3"><a href="">A Picture Is Worth A Thousand Words</a></h3>
+                                    <div class="article_wrap_left_wrap flex">
+
+                                        <div class="article_wrap_left_wrap_img">
+                                            <a href="/"><img src="/assets/img/Layer_10.jpg"
+                                                             alt="words"></a><span>Flight over the country - 2014</span>
+                                        </div>
+                                        <div class="article_wrap_left_wrap_item">
+                                            <article>
+                                                <p class="description">Dad blizzard coffee unsave facepalm face feel
+                                                    like a
+                                                    sir
+                                                    tank mother aww yeah. Anonymous easter puking rainbows bear wodka
+                                                    simpson
+                                                    amnesia read cookie monster final week grey.</p>
+                                                <p>Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone
+                                                    clinton
+                                                    cereal guy. Good guy high school on okay a bacon homework in joke
+                                                    dog....</p>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article_wrap_right">
+                                    <h4 class="title4">Author</h4>
+                                    <span>Jonas Duri</span>
+                                    <div class="article_wrap_right_autor"><img src="/assets/img/photo_autor.png"
+                                                                               alt="Автор статьи">
+                                        <div class="social">
+
+                                            <ul>
+                                                <li><a href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li><a
+                                                        href="/"><i
+                                                        class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a></li>
+                                                <li><a href="/"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="article_wrap_right_social">
+                                        <li><a href="/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                        <li><a href="/"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="/"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                        <li><a href="/"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="article">
+                                <div class="article_wrap_left">
+                                    <div class="article_wrap_left_crumbs flex">
+                                        <p><span><a
+                                                href="/">A Picture Is Worth A Thousand Words	   </a> </span><span>01/17/2014 </span>
+                                        </p>
+
+                                        <span class="read">8 minutes read</span>
+                                    </div>
+                                    <h3 class="title3"><a href="">A Picture Is Worth A Thousand Words</a></h3>
+                                    <div class="article_wrap_left_wrap flex">
+
+                                        <div class="article_wrap_left_wrap_img">
+                                            <a href="/"><img src="/assets/img/Layer_10.jpg"
+                                                             alt="words"></a><span>Flight over the country - 2014</span>
+                                        </div>
+                                        <div class="article_wrap_left_wrap_item">
+                                            <article>
+                                                <p class="description">Dad blizzard coffee unsave facepalm face feel
+                                                    like a
+                                                    sir
+                                                    tank mother aww yeah. Anonymous easter puking rainbows bear wodka
+                                                    simpson
+                                                    amnesia read cookie monster final week grey.</p>
+                                                <p>Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone
+                                                    clinton
+                                                    cereal guy. Good guy high school on okay a bacon homework in joke
+                                                    dog....</p>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article_wrap_right">
+                                    <h4 class="title4">Author</h4>
+                                    <span>Jonas Duri</span>
+                                    <div class="article_wrap_right_autor"><img src="/assets/img/photo_autor.png"
+                                                                               alt="Автор статьи">
+                                        <div class="social">
+
+                                            <ul>
+                                                <li><a href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li><a
+                                                        href="/"><i
+                                                        class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a></li>
+                                                <li><a href="/"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="article_wrap_right_social">
+                                        <li><a href="/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                        <li><a href="/"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="/"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                        <li><a href="/"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="article">
+                                <div class="article_wrap_left">
+                                    <div class="article_wrap_left_crumbs flex">
+                                        <p><span><a
+                                                href="/">A Picture Is Worth A Thousand Words	   </a> </span><span>01/17/2014 </span>
+                                        </p>
+
+                                        <span class="read">8 minutes read</span>
+                                    </div>
+                                    <h3 class="title3"><a href="">A Picture Is Worth A Thousand Words</a></h3>
+                                    <div class="article_wrap_left_wrap flex">
+
+                                        <div class="article_wrap_left_wrap_img">
+                                            <a href="/"><img src="/assets/img/Layer_10.jpg"
+                                                             alt="words"></a><span>Flight over the country - 2014</span>
+                                        </div>
+                                        <div class="article_wrap_left_wrap_item">
+                                            <article>
+                                                <p class="description">Dad blizzard coffee unsave facepalm face feel
+                                                    like a
+                                                    sir
+                                                    tank mother aww yeah. Anonymous easter puking rainbows bear wodka
+                                                    simpson
+                                                    amnesia read cookie monster final week grey.</p>
+                                                <p>Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone
+                                                    clinton
+                                                    cereal guy. Good guy high school on okay a bacon homework in joke
+                                                    dog....</p>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article_wrap_right">
+                                    <h4 class="title4">Author</h4>
+                                    <span>Jonas Duri</span>
+                                    <div class="article_wrap_right_autor"><img src="/assets/img/photo_autor.png"
+                                                                               alt="Автор статьи">
+                                        <div class="social">
+
+                                            <ul>
+                                                <li><a href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li><a
+                                                        href="/"><i
+                                                        class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a></li>
+                                                <li><a href="/"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="article_wrap_right_social">
+                                        <li><a href="/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                        <li><a href="/"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="/"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                        <li><a href="/"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end-blog-article -->
+                        <!-- blog-sidebar -->
+                        <div class="blog-sidebar flex">
+                            <div class="sidebar">
+                                <h4 class="title4">Categorys</h4>
+                                <ul class="sidebar_categorys">
+                                    <li><a href="">Traveling</a><span>(<a href="">9</a>)</span>
+                                        <ul>
+                                            <li><a href="">A Picture is Worth A (..)</a></li>
+                                            <li><a href="">Trip to New York City was (..)</a></li>
+                                            <li><a href="">Trip to New York City was (..)</a></li>
+                                            <li><a href="">Trip to New York City was (..)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Photos</a><span>(<a href="">28</a>)</span></li>
+                                    <li><a href="">Lifestyle</a><span>(<a href="">4</a>)</span></li>
+                                    <li><a href="">Inspiration</a><span>(<a href="">28</a>)</span></li>
+                                    <li><a href="">Fashion</a><span>(<a href="">28</a>)</span></li>
+                                    <li><a href="">Business</a><span>(<a href="">333</a>)</span></li>
+                                    <li><a href="">Technology</a><span>(<a href="">333</a>)</span></li>
+                                </ul>
+                            </div>
+                            <div class="sidebar">
+                                <h4 class="title4">Archive</h4>
+                                <ul class="sidebar_categorys">
+                                    <li><a href="">2014</a><span>(<a href="">9</a>)</span>
+                                        <ul>
+                                            <li><a href="">A Picture is Worth A (..)</a></li>
+                                            <li><a href="">Trip to New York City was (..)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">January</a><span>(<a href="">28</a>)</span>
+                                        <ul>
+                                            <li><a href="">A Picture is Worth A (..)</a></li>
+                                            <li><a href="">Trip to New York City was (..)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">February</a><span>(<a href="">4</a>)</span></li>
+                                    <li><a href="">March </a><span>(<a href="">28</a>)</span></li>
+                                    <li><a href="">April</a><span>(<a href="">28</a>)</span></li>
+                                    <li><a href="">May</a><span>(<a href="">333</a>)</span></li>
+                                    <li><a href="">June</a><span>(<a href="">333</a>)</span></li>
+                                    <li><a href="">July</a><span>(<a href="">333</a>)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end-blog-sidebar -->
+                    </div>
+                    <!-- end-blog -->
+                    <!--contact-me-->
+                    <div class="contact-me flex">
+                        <div class="contact-me_form">
+                            <h3 class="title3"><a href="">Contact Me</a></h3>
+                            <p>Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone clinton cereal
+                                guy. </p>
+                            <form id="form_id" class="contact-me_form_action">
+                                <label>
+                                    <input type="text" placeholder="Your Name">
+                                </label>
+                                <label>
+                                    <input type="text" id="email" name="email" placeholder="Your E-Mail Address"> <span
+                                        style="display: none">*please enter a valid address</span>
+                                </label>
+                                <label>
+                                    <textarea placeholder="Your Comment" name="comment" class="ta-comment"
+                                              rows="5"></textarea>
+                                </label>
+                                <input class="btn" type="submit" value="Send E-Mail">
+                            </form>
+                            <div class="form_id-valid" style="display: none"><p>Форма не отправленна</p></div>
+                        </div>
+                        <div class="contact-me_post">
+                            <div class="contact-me_post_random">
+                                <div class="contact-me_post_random_post">
+                                    <h3 class="title3">Random Post</h3>
+                                    <div class="contact-me_post_random_post_img">
+                                        <img src="/assets/img/post1.jpg" alt="Пост 1">
+                                    </div>
+                                    <span>Some advise on Photography</span>
+                                </div>
+                                <div class="contact-me_post_random_post">
+                                    <h3 class="title3">Random Post</h3>
+                                    <div class="contact-me_post_random_post_img">
+                                        <img src="/assets/img/post1.jpg" alt="Пост 1">
+                                    </div>
+                                    <span>Some advise on Photography</span>
+                                </div>
+                            </div>
+                            <div class="contact-me_post_email">
+                                <img src="/assets/img/Logo-AgencyFB.png" alt="Лого">
+                                <h3 class="title3">Newsletter</h3>
+                                <form action="" class="contact-me_form_action">
+                                    <label>
+                                        <input type="text" id="email" name="email" placeholder="Your E-Mail Address">
+                                        <span style="display: none">*please enter a valid address</span>
+                                    </label>
+                                    <input class="btn" type="submit" value="Subscribe">
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--contact-me-->
+                </div>
+            </section>
+
+            <!--<example-component v-if="component"></example-component>-->
+
+            <footer>
+                <div class="wrap-header flex">
+                    <div class="social-link">
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i>
+                    </div>
+                    <div class="logo flex-basis">
+                        <a href="/"><img src="/assets/img/Logo-AgencyFB-w.png" alt="Логотип"></a>
+                    </div>
+                    <div class="menu flex-basis">
+                        <nav>
+                            <div class="menu-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="menu-right">
+                                <div class="menu-right_nav">
+                                    <ul>
+                                        <li><a href="">Главная</a></li>
+                                        <li><a href="">О нас</a></li>
+                                        <li><a href="">Портфолио</a></li>
+                                        <li><a href="">Услуги</a></li>
+                                        <li><a href="">Контакты</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- end content wrapper -->
+    </div>
+
+    <!-- end main wrapper -->
+</div>
+
+<script type="text/javascript" src="/assets/js/app.js"></script></body>
+</html>
